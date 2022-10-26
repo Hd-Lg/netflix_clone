@@ -20,7 +20,7 @@ export default function Nav() {
 	}, []);
 
 	return (
-		<div className={`nav ${showNav && "nav__black"}`}>
+		<nav className={`nav ${showNav && "nav__black"}`}>
 			<div className="nav__content">
 				<img
 					className="nav__logo"
@@ -33,6 +33,6 @@ export default function Nav() {
 					alt=""
 				/>
 			</div>
-		</div>
+		</nav>
 	);
 }
