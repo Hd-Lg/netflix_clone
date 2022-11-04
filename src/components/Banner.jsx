@@ -43,7 +43,7 @@ export default function Banner() {
 					{truncate(movie?.overview, 150)}
 				</h1>
 			</div>
-			{/* <div className="banner--fadeBottom" /> */}
+			<div className="banner--fadeBottom" />
 		</header>
 	);
 }
