@@ -6,5 +6,5 @@ Stack:
 
 - React JS,
 - Stripe,
-- Firebase & Cloud Firestore,
+- Firebase, Firebase Authentication & Cloud Firestore,
 - Redux w/ Authentication

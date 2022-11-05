@@ -1,7 +1,7 @@
 import React from "react";
 import requests from "../utils/requests";
 
-import { Banner, Nav, Row } from "./";
+import { Banner, Nav, Row } from "../components";
 
 import "./HomeScreen.css";
 
