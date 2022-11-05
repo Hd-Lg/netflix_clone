@@ -2,8 +2,9 @@
 	position: relative;
 	height: 100%;
 	color: red;
-	background: url("https://assets.nflxext.com/ffe/siteui/vlv3/757ab38f-5d08-40bc-b3eb-eaba63ed8203/93c34f94-56c8-40a7-8b2e-b4aac6427977/GB-en-20210125-popsignuptwoweeks-perspective_alpha_website_medium.jpg")
-		center no-repeat;
+	/* background: url("https://assets.nflxext.com/ffe/siteui/vlv3/757ab38f-5d08-40bc-b3eb-eaba63ed8203/93c34f94-56c8-40a7-8b2e-b4aac6427977/GB-en-20210125-popsignuptwoweeks-perspective_alpha_website_medium.jpg")
+		center no-repeat; */
+	background: url("../assets/Netflix-Background.jpg") center no-repeat;
 	background-size: cover;
 }
 
@@ -22,6 +23,7 @@
 
 .loginScreen__logo {
 	position: fixed;
+	top: 22px;
 	left: 0;
 	width: 150px;
 	object-fit: contain;
@@ -66,6 +68,8 @@
 	z-index: 1;
 	color: white;
 	padding: 20px;
+	left: 0;
+	right: 0;
 }
 
 .loginScreen__input > form > input {
@@ -77,10 +81,17 @@
 	max-width: 600px;
 }
 
+.loginScreen__input {
+	margin: 20px;
+}
+
 .loginScreen__getStarted {
-	padding: 16px 20px;
+	height: 29px;
+	padding-bottom: 2px;
+	width: auto;
 	font-size: 1rem;
 	color: #fff;
 	background-color: #e50914;
 	border: none;
+	cursor: pointer;
 }

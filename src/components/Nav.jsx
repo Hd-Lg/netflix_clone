@@ -2,6 +2,8 @@ import React, { useState } from "react";
 import { useEffect } from "react";
 
 import "./Nav.css";
+import Avatar from "../assets/avatar.png";
+import Netflix_Logo from "../assets/Netflix-Logo-HD.png";
 
 export default function Nav() {
 	const [showNav, setShowNav] = useState(false);
@@ -22,16 +24,8 @@ export default function Nav() {
 	return (
 		<nav className={`nav ${showNav && "nav__black"}`}>
 			<div className="nav__content">
-				<img
-					className="nav__logo"
-					src="http://www.pngall.com/wp-content/uploads/4/Netflix-Logo-HD.png"
-					alt=""
-				/>
-				<img
-					className="nav__avatar"
-					src="https://cdn.icon-icons.com/icons2/1378/PNG/512/avatardefault_92824.png"
-					alt=""
-				/>
+				<img className="nav__logo" src={Netflix_Logo} alt="" />
+				<img className="nav__avatar" src={Avatar} alt="" />
 			</div>
 		</nav>
 	);

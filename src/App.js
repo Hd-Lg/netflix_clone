@@ -6,7 +6,7 @@ import "./App.css";
 
 export default function App() {
 	const user = null;
-	
+
 	return (
 		<div className="App">
 			<Routes>
