@@ -5,6 +5,6 @@ A clone of Netflix
 Stack:
 
 - React JS,
-- Stripe,
+- Stripe with TEST API,
 - Firebase, Firebase Authentication & Cloud Firestore,
-- Redux w/ Authentication
+- Redux Store
